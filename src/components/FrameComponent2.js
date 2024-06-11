@@ -6,7 +6,7 @@ const FrameComponent2 = ({ className = "" }) => {
   const navigate = useNavigate();
 
   const onFrameContainerClick = useCallback(() => {
-    navigate("/");
+    navigate("/homeplay");
   }, [navigate]);
 
   return (
